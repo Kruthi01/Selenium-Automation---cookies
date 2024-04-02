@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 #opening saucedemo
 driver.get("https://www.saucedemo.com/")
 #getting cookies before login
-res=driver.getCookies()
+res=driver.get_cookies()
 print("Before login cookie is:")
 #And printing them
 print(res)
@@ -23,7 +23,7 @@ password_input.send_keys("secret_sauce")
 login_button.click()
 time.sleep(3)
 #Getting cookies after login
-res1=driver.getCookies()
+res1=driver.get_cookies()
 print("After login cookie is:")
 #And printing them
 print(res1)
