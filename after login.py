@@ -1,5 +1,5 @@
 
-# Switching windows between google and saucedemo
+# Printing cookies before login and after login
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
