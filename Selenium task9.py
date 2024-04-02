@@ -1,6 +1,4 @@
-
-
-
+#Fetching Title of the webpage, current url and extracting content of the web page and saving it in text file
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
